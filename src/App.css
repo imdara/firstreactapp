@@ -1,10 +1,35 @@
 .App {
+  color: white;
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.card {
+  margin-top: 25px;
+  background-color: rgb(99, 208, 241);
+  color: rgba(185, 81, 21, 0.904);
+  width: 240px;
+  margin: 11px;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+.card-img-top {
+  margin-top: 25px;
+  width: 80px;
+  align-self:center;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: center;
+  justify-content:space-evenly;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,6 +47,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.card-img-top {
+  height: 50px;
 }
 
 .App-link {
